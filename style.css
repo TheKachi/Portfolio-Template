@@ -10,7 +10,8 @@ body {
 
 /*HEADINGS*/
 h1 {
-  font-size: 5.333333rem;
+  /* font-size: 5.333333rem; */
+  font-weight: 600;
 }
 
 h2 {
@@ -33,6 +34,10 @@ p {
 
 .nav-link a {
   color: #000;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
 }
 
 .card-bottom-left {
@@ -104,4 +109,39 @@ button {
   position: absolute;
   top: 60px;
   left: 30px;
+}
+
+/*MEDIA QUERIES*/
+/* html {
+    font-size: 1rem;
+  }
+  
+  @imedia-breakp(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  } */
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+  .hero-p {
+    font-size: 16px;
+  }
+  .hero-h2 {
+    font-size: 1rem;
+  }
 }
