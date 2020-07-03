@@ -35,28 +35,17 @@ p {
   color: #000;
 }
 
-.card-img-overlay {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  /* position: relative; */
-}
-.card-text {
-  display: flex;
+.card-bottom-left {
   position: absolute;
   bottom: 20px;
   left: 30px;
 }
-
-.card-text h3 {
+.flex {
+  display: flex;
+}
+.flex h3 {
   margin-left: 5px;
   align-self: flex-end;
-}
-
-.down {
-  bottom: 20px;
-  left: 30px;
-  position: absolute;
 }
 
 .down-right {
@@ -111,7 +100,7 @@ button {
   color: white;
 }
 
-.card-title {
+.card-top-left {
   position: absolute;
   top: 60px;
   left: 30px;
