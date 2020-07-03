@@ -43,9 +43,26 @@ p {
 }
 .card-text {
   display: flex;
-  /* position: absolute;
-    top: 80px;
-    left: 0; */
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+
+.card-text h3 {
+  margin-left: 5px;
+  align-self: flex-end;
+}
+
+.down {
+  bottom: 20px;
+  left: 30px;
+  position: absolute;
+}
+
+.down-right {
+  bottom: 20px;
+  right: 30px;
+  position: absolute;
 }
 /* .carousel-inner > .carousel-item > img {
     min-height: 300px;
@@ -88,11 +105,14 @@ button {
 .third-grid {
   display: flex;
 }
+
 .portfolio-card {
-  width: 300px;
-  height: 200px;
+  position: relative;
+  color: white;
 }
 
-.portfolio-card .one {
-  background: url(./assets/group\6png);
+.card-title {
+  position: absolute;
+  top: 60px;
+  left: 30px;
 }
